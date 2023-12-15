@@ -11,6 +11,9 @@ acp = PCAmix(donnees[,-c(1,2)])
 sexe = as.factor(donnees$Sexe)
 plot(acp,choice = "ind",coloring.ind = sexe)
 
+boxplot(donnees[,-c(1,2,3,4,5)])
+
+
 
 
 ########## ZONE JOANNE
