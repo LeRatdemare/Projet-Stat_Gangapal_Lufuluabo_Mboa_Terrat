@@ -20,3 +20,11 @@ plot(acp,choice = "ind",coloring.ind = sexe)
 
 
 ########## ZONE NATHAN
+data = readRDS("activation.Rdata")
+attach(data)
+summary(data)
+library(PCAmixdata)
+PCAmix()
+
+
+
